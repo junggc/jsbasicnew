@@ -19,7 +19,7 @@
         for(var i=0; i<itemList.length; i++){  //배열 요소마다 반복
             list +="<li>" + itemList[i] + "</li>"; // 각 요소를 <li>~</li> 로 묶음
         }
-        list += "</ul>";  //목록을 끝내는 </ul> 태그 저장 ..
+        list += "</ul>";  //목록을 끝내는 </ul> 태그 저장 ......
 
         document.querySelector("#itemList").innerHTML = list;
     }
