@@ -33,4 +33,4 @@
 			itemList.splice(id, 1);  // itemList 배열에서 인덱스 값이 id인 요소 1개 삭제
 			showList();  // 변경된 itemList 배열을 다시 화면에 표시
 		}
-		//asdopfjsadf
+		//asdopfjsadfkj;ljl;jljl;
