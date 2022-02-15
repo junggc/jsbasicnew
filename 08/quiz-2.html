@@ -32,5 +32,20 @@
 		<li><span class="check">&check;</span>할 일 4 </li>
 		<li><span class="check">&check;</span>할 일 5 </li>
 	</ul>
+<script>
+	var ch = document.querySelectorAll(".check");
+	for(var i=0; i<ch.length; i++){
+		ch[i].addEventListener("click",function (){
+			this.parentNode.style.color="#ccc";
+		});
+	};
+
+
+
+
+
+
+</script>
+
 </body>
 </html>
